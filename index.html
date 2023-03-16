@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Mostafa Reda" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      content="Lava empowers you to connect with friends, share your ideas, and discover social audio from around the world. Download the Lava iOS app to join in on the fun!"
+      name="description"
+    />
+    <link
+      href="/61a9431b31d056d2937e24ee_Webclip (holo) 2.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="/61a9428f2661e001bb943b09_Webclip (holo).png"
+      rel="apple-touch-icon"
+    />
+    <title>Ayo - Social Audio App</title>
+
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+
+  <body>
+    <div id="root">
+      <nav class="nav">
+        <div class="container">
+          <ul role="list" class="nav__list">
+            <li class="nab__list-item">
+              <a href="#" title="Ayo home">
+                <img
+                  class="nav__icon"
+                  src="/images/logo.png"
+                  srcset="/images/logo-500.png 500w, /images/logo.png 600w"
+                  alt="lava logo"
+                />
+              </a>
+            </li>
+            <li class="nav__list-item">
+              <a href="/" class="wordmark" aria-current="page">Ayo</a>
+            </li>
+            <li class="nav__list-item">
+              <button
+                class="nav__btn"
+                type="button"
+                aria-controls="#qrCodeFrame"
+                aria-label="QR-code"
+              >
+                <img
+                  class="nav__icon"
+                  src="/images/qr-icon.png"
+                  srcset="
+                    /images/qr-icon-500.png 500w,
+                    /images/qr-icon.png     600w
+                  "
+                  alt="app store qr code"
+                  loading="lazy"
+                />
+              </button>
+
+              <a href="#" id="qrCodeFrame" class="qr-code gradient-border">
+                <img
+                  src="/images/frame.png"
+                  class="qr-code__img"
+                  alt="lava mobile app QR code"
+                />
+                <div class="qr-code__text">
+                  <p class="wordmark">Ayo on iOS</p>
+                  <p class="qr-h2">Scan or Tap</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /container -->
+      </nav>
+      <!-- /nav -->
+
+      <header class="hero container">
+        <div class="hero__creator-images">
+          <img
+            src="/images/creators/creator-1-800.jpeg"
+            loading="lazy"
+            srcset="
+              /images/creators/creator-1-500.jpeg   500w,
+              /images/creators/creator-1-800.jpeg   800w,
+              /images/creators/creator-1-1080.jpeg 1080w
+            "
+            sizes="(max-width: 479px) 90px, 120px"
+            alt="girl thinking"
+            class="hero-creator-image"
+          />
+          <img
+            src="/images/creators/creator-1-800.jpeg"
+            loading="lazy"
+            srcset="
+              /images/creators/creator-2-500.jpeg   500w,
+              /images/creators/creator-2-800.jpeg   800w,
+              /images/creators/creator-2-1080.jpeg 1080w
+            "
+            sizes="(max-width: 479px) 120px, 150px"
+            alt="rapper"
+            class="hero-creator-image hci-center"
+          />
+          <img
+            src="/images/creators/creator-3-800.png"
+            loading="lazy"
+            srcset="
+              /images/creators/creator-3-500.png   500w,
+              /images/creators/creator-3-800.png   800w,
+              /images/creators/creator-3-1080.png 1080w
+            "
+            sizes="(max-width: 479px) 90px, 120px"
+            alt="artist"
+            class="hero-creator-image"
+          />
+        </div>
+        <hgroup class="hero__content jumbotron">
+          <h3 class="jumbotron__subtitle">FIND YOUR VOICE</h3>
+          <h1 class="jumbotron__title">Audio has never been this social</h1>
+          <p class="jumbotron__text">
+            Create, curate, & discover stories from around the world on
+            <span class="wordmark">Ayo</span>
+          </p>
+        </hgroup>
+
+        <a href="#" class="btn gradient-border">Get The App</a>
+      </header>
+      <!-- /hero -->
+
+      <section class="app-suite section container">
+        <img
+          src="/images/screens/messages-800.png"
+          loading="lazy"
+          srcset="
+            /images/screens/messages-500.png   500w,
+            /images/screens/messages-800.png   800w,
+            /images/screens/messages-1080.png 1080w
+          "
+          alt="Lava mobile app messaging"
+          class="app-screen center-card screen-1"
+        /><img
+          src="/images/screens/discover-800.png"
+          loading="lazy"
+          srcset="
+            /images/screens/discover-500.png   500w,
+            /images/screens/discover-800.png   800w,
+            /images/screens/discover-1080.png 1080w
+          "
+          alt="Lava mobile app social audio discover feed"
+          class="app-screen phone-edge-card screen-2"
+        /><img
+          src="/images/screens/no-lighting-800.png"
+          loading="lazy"
+          srcset="
+            /images/screens/no-lighting-500.png   500w,
+            /images/screens/no-lighting-800.png   800w,
+            /images/screens/no-lighting-1080.png 1080w
+          "
+          alt="Lava mobile app splash"
+          class="app-screen screen-3"
+        /><img
+          src="/images/screens/studio-800.png"
+          loading="lazy"
+          srcset="
+            /images/screens/studio-500.png   500w,
+            /images/screens/studio-800.png   800w,
+            /images/screens/studio-1080.png 1080w
+          "
+          alt="Lava mobile app audio recording"
+          class="app-screen phone-edge-card screen-4"
+        /><img
+          src="/images/screens/profile-800.png"
+          loading="lazy"
+          srcset="
+            /images/screens/profile-500.png   500w,
+            /images/screens/profile-800.png   800w,
+            /images/screens/profile-1080.png 1080w
+          "
+          alt="Lava mobile app user profile with playlists"
+          class="app-screen center-card screen-5"
+        />
+      </section>
+      <!-- /app-suite -->
+
+      <section class="features section container">
+        <div class="features__grid">
+          <div class="card">
+            <div class="card__thumb">
+              <img
+                src="/images/features/airpod-left.png"
+                loading="lazy"
+                alt="airpods pro"
+                class="airpod airpod--left"
+              /><img
+                src="/images/features/airpod-right.png"
+                loading="lazy"
+                alt="airpods pro"
+                class="airpod airpod--right"
+              /><img
+                src="/images/features/player-card.png"
+                loading="lazy"
+                srcset="
+                  /images/features/player-card-500.png 500w,
+                  /images/features/player-card.png     800w
+                "
+                sizes="(max-width: 479px) 76vw, 64vw"
+                alt="podcast audio track"
+                class="image-5"
+              />
+            </div>
+            <div class="card__text">
+              <h2>Discover Social Audio</h2>
+              <p>
+                Listen to clips, posts, and podcasts on your personalized feed
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__thumb marquee">
+              <div class="marquee__content">
+                <img
+                  src="/images/playlist/61a3f49330e19aa8bf0d9c49_Group%202026.png"
+                  loading="lazy"
+                  width="150"
+                  alt="startup grind playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a3f49350cea9f51ba79596_Group%202025.png"
+                  loading="lazy"
+                  width="150"
+                  alt="tasty baking playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a3f49396bf587253abbd1b_Group%202024.png"
+                  loading="lazy"
+                  width="150"
+                  alt="weekly nft playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a3f493488ebff019910907_Group%202023.png"
+                  loading="lazy"
+                  width="150"
+                  alt="trek talks playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a404560fa4a53b97db200e_DJ.png"
+                  loading="lazy"
+                  width="150"
+                  alt="DJ set playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a3f4936533d71b40de3cc1_Group%202027.png"
+                  loading="lazy"
+                  width="150"
+                  alt="holiday party playlist"
+                  class="playlist"
+                />
+              </div>
+              <div class="marquee__content" aria-hidden="true">
+                <img
+                  src="/images/playlist/61a3f49330e19aa8bf0d9c49_Group%202026.png"
+                  loading="lazy"
+                  width="150"
+                  alt="startup grind playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a3f49350cea9f51ba79596_Group%202025.png"
+                  loading="lazy"
+                  width="150"
+                  alt="tasty baking playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a3f49396bf587253abbd1b_Group%202024.png"
+                  loading="lazy"
+                  width="150"
+                  alt="weekly nft playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a3f493488ebff019910907_Group%202023.png"
+                  loading="lazy"
+                  width="150"
+                  alt="trek talks playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a404560fa4a53b97db200e_DJ.png"
+                  loading="lazy"
+                  width="150"
+                  alt="DJ set playlist"
+                  class="playlist"
+                /><img
+                  src="/images/playlist/61a3f4936533d71b40de3cc1_Group%202027.png"
+                  loading="lazy"
+                  width="150"
+                  alt="holiday party playlist"
+                  class="playlist"
+                />
+              </div>
+            </div>
+            <div class="card__text">
+              <h2>Curate Playlists</h2>
+              <p>Organize posts to put your own spin on trends and topics</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__thumb">
+              <img
+                src="/images/features/formats.png"
+                loading="lazy"
+                srcset="
+                  /images/features/formats-500.png 500w,
+                  /images/features/formats.png     800w
+                "
+                sizes="(max-width: 479px) 76vw, 64vw"
+                alt="Social audio recording: conversation or hot take"
+              />
+            </div>
+            <div class="card__text">
+              <h2>Voice Your Ideas</h2>
+              <p>
+                Share your conversations with the world through the authenticity
+                of audio
+              </p>
+            </div>
+          </div>
+
+          <div class="card card--full gradient-border">
+            <div class="card__thumb">
+              <img
+                src="/images/features/creator-circles-800.png"
+                sizes="(max-width: 479px) 100vw, (max-width: 1825px) 63vw, 1150px"
+                srcset="
+                  /images/features/creator-circles-500.png   500w,
+                  /images/features/creator-circles-800.png   800w,
+                  /images/features/creator-circles-1080.png 1080w
+                "
+                alt="social audio creators"
+                loading="lazy"
+              />
+            </div>
+            <div class="card__text">
+              <h2>Connect With Creators, Fans, & Friends</h2>
+              <p>
+                Direct messages, reactions, and comments are just a few ways to
+                make new friends on <span class="wordmark">Ayo</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /features -->
+
+      <section class="podcaster section container">
+        <hgroup class="jumbotron">
+          <h2 class="jumbotron__title">Already have a podcast? Join us.</h2>
+          <p class="jumbotron__text">
+            Get direct access to your audience for the feedback that you’ve been
+            looking for. Go viral on the feed, react to your comments, and
+            message your top listeners while building your fanbase on
+            <span class="wordmark">Ayo</span>.
+          </p>
+          <p class="jumbotron__text">
+            And don't worry! You own 100% of your content :)
+          </p>
+        </hgroup>
+
+        <a href="#" class="btn gradient-border">Add Your RSS</a>
+      </section>
+      <!-- /podcaster -->
+
+      <section class="app-features">
+        <article class="feature-highlight feature-highlight-1">
+          <div class="feature-highlight__grid container">
+            <div class="feature-highlight__text">
+              <h2>Hear Cool Stories</h2>
+              <p>
+                Your personalized feed recommends audio clips based on things
+                you care about whether that’s a recap of last nights game, a
+                breakdown of your favorite musician’s album, or the latest news
+                in tech.
+              </p>
+            </div>
+
+            <div class="feature-highlight__mockup">
+              <img
+                src="/images/features-highlight/dua-45-degree-800.png"
+                loading="lazy"
+                srcset="
+                  /images/features-highlight/dua-45-degree-500.png   500w,
+                  /images/features-highlight/dua-45-degree-800.png   800w,
+                  /images/features-highlight/dua-45-degree-1080.png 1080w
+                "
+                alt="Lava social audio discover feed and audio player"
+                class="discover-player-mockup"
+              />
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-highlight feature-highlight-2">
+          <div class="feature-highlight__grid container">
+            <div class="feature-highlight__text">
+              <h2>Be a Trendsetter</h2>
+              <p>
+                Explore what’s happening in the world through popular hashtags
+                then record your opinions by yourself or with friends to become
+                a thought leader in the conversation.
+              </p>
+            </div>
+
+            <div class="feature-highlight__mockup">
+              <img
+                src="/images/features-highlight/trio-800.png"
+                loading="lazy"
+                srcset="
+                  /images/features-highlight/trio-500.png   500w,
+                  /images/features-highlight/trio-800.png   800w,
+                  /images/features-highlight/trio-1080.png 1080w
+                "
+                alt="Lava explore and studio"
+                class="explore-studio-mockup"
+              />
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-highlight feature-highlight-3">
+          <div class="feature-highlight__grid container">
+            <div class="feature-highlight__text">
+              <h2>Build Your Audience</h2>
+              <p>
+                Start a podcast without any equipment, experience, or expertise.
+                <span class="wordmark">Ayo</span> empowers you to record your
+                conversations, share them with your followers, then add them to
+                playlists. <span class="wordmark">Ayo</span> is what podcasting
+                should be: easy.
+              </p>
+            </div>
+
+            <div class="feature-highlight__mockup">
+              <img
+                src="/images/features-highlight/profile-playlists-800.png"
+                loading="lazy"
+                srcset="
+                  /images/features-highlight/profile-playlists-500.png   500w,
+                  /images/features-highlight/profile-playlists-800.png   800w,
+                  /images/features-highlight/profile-playlists-1080.png 1080w
+                "
+                alt="Lava mobile app profile and playlist"
+                class="profile-playlist-mockup"
+              />
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- /app-features -->
+
+      <section class="cta container">
+        <div class="cta__content gradient-border">
+          <!-- <a href="#" id="qrCodeFrame" class="qr-code gradient-border">
+            <img
+              src="/images/frame.png"
+              class="qr-code__img"
+              alt="lava mobile app QR code"
+            />
+            <div class="qr-code__text">
+              <p class="wordmark">Ayo on iOS</p>
+              <p class="qr-h2">Scan or Tap</p>
+            </div>
+          </a> -->
+
+          <hgroup class="jumbotron">
+            <h2 class="jumbotron__title">So what are you waiting for?</h2>
+            <p class="jumbotron__text">
+              Download the <span class="wordmark">Ayo</span> mobile app to snag
+              a cool username before your mom finds out that we exist
+            </p>
+          </hgroup>
+
+          <a href="#" class="btn gradient-border">Get The App</a>
+        </div>
+      </section>
+      <!-- /cta -->
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__grid">
+            <ul class="footer__list links">
+              <li class="footer__list-item">
+                <a href="#">🎟 Android Waitlist</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#">🤑 Cool Jobs</a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#">🎁 Press Kit</a>
+              </li>
+            </ul>
+
+            <div>
+              <ul class="footer__list social">
+                <li>
+                  <a href="#">
+                    <img src="/public/images/tik-tok.svg" width="20" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="/public/images/instagram.png" width="20" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="/public/images/twitter.svg" width="20" alt="" />
+                  </a>
+                </li>
+              </ul>
+
+              <p class="copyright">&copy; 2022 Lava Ventures, Inc.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- /root -->
+
+    <!-- <script type="module" src="/main.js"></script> -->
+  </body>
+</html>
